@@ -4,3 +4,5 @@ Flask-SQLAlchemy
 Flask-Mail
 Werkzeug
 gunicorn
+from flask_cors import CORS
+CORS(app)
